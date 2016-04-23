@@ -29,4 +29,10 @@
 	 1. 卸载markdown-themeable-pdf重新安装
 	 2. 还是不行的话，卸载atom重新安装一次
 
--
+- 不能通过atom在线安装包
+> tunneling socket could not be established, cause=connect ETIMEDOUT
+
+cd .atom/packages
+git clone URL
+cd atom-script
+apm install
